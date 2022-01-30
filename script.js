@@ -230,7 +230,7 @@ const startLogOutTimer = function () {
   let time = 120;
   // call timer every sec
   tick();//this function will be called immidiately
-  const timer = setInterval(time, 1000);
+  const timer = setInterval(tick, 1000);
   return timer;
 };
 
