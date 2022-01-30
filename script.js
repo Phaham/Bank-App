@@ -49,7 +49,7 @@ const account2 = {
   locale: 'pt-PT',
 };
 const account3 = {
-  owner: 'Yusra Saman Khan',
+  owner: 'Sajid Malik',
   movements: [5000, 3400, -150, -790, -3210, -1000, 8500, -30],
   interestRate: 1.5,
   pin: 3333,
