@@ -199,16 +199,6 @@ const updateUI = function (acc) {
   calcDisplaySummary(acc);
 };
 
-///////////////////////////////////////
-// Event handlers
-let currentAccount, timer;
-
-// FAKE ALWAYS LOGGED IN ->
-// currentAccount = account1;
-// updateUI(currentAccount);
-// containerApp.style.opacity = 120;
-
-
 // Implementing Timer ->
 const startLogOutTimer = function () {
   const tick = function () {
@@ -233,6 +223,15 @@ const startLogOutTimer = function () {
   const timer = setInterval(tick, 1000);
   return timer;
 };
+
+///////////////////////////////////////
+// Event handlers
+let currentAccount, timer;
+
+// FAKE ALWAYS LOGGED IN ->
+// currentAccount = account1;
+// updateUI(currentAccount);
+// containerApp.style.opacity = 120;
 
 
 btnLogin.addEventListener('click', function (e) {
