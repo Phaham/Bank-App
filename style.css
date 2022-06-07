@@ -290,3 +290,28 @@
     font-weight: 600;
   }
   
+/* dummy accounts */
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  display: none;
+}
+
+.dummy {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.dummy h3 {
+  font-size: 1.5rem;
+  margin-right: 3rem;
+}
+
+.dummy span {
+  color: #444;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding-top: .2rem;
+}
