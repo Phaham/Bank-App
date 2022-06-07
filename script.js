@@ -286,6 +286,8 @@ btnLogin.addEventListener('click', function (e) {
     timer = startLogOutTimer();
     // Update UI
     updateUI(currentAccount);
+    
+    dummy.classList.add('hidden');
   }
 });
 
